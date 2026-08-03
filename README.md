@@ -1,8 +1,6 @@
-# NTI-Mean-Stack-Training
-This repository contains my tasks and projects during NTI MEAN Stack training.
 # NTI MEAN Stack Training
 
-This repository contains my tasks, assignments, and projects during NTI MEAN Stack training.
+This repository contains my tasks and projects during NTI MEAN Stack training.
 
 ## Content
 
