@@ -4,7 +4,6 @@ This repository contains my tasks and projects during NTI MEAN Stack training.
 
 ## Content
 
-- HTML & CSS Tasks
 - JavaScript Tasks
 - Angular Tasks
 - Node.js Tasks
