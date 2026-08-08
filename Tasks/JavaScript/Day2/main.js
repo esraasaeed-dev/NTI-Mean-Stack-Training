@@ -215,9 +215,9 @@ console.log(`Welcome, ${userName}`)
     console.log("D")
  }else if(age > 70 && age <=80){
     console.log("C")
- }else if(age > 80 && age < 90){
-        console.log("b")
- }else if(age > 90 && age < 100){
+ }else if(age > 80 && age <= 90){
+        console.log("B")
+ }else if(age > 90 && age <= 100){
         console.log("A")
 }else
     console.log("F")
