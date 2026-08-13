@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="product-form">
+        <h1>Products Form</h1>
+
+        <div class="form-content">
+
+            <div class="input-box">
+                <label>Name</label>
+                <input type="text" id="productName">
+            </div>
+
+            <div class="input-box">
+                <label>Description</label>
+                <input type="text" id="productDesc">
+            </div>
+
+            <div class="input-box">
+                <label>Color</label>
+                <select id="productColor">
+                    <option value="">Select Color</option>
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Yellow">Yellow</option>
+                </select>
+            </div>
+
+            <div class="check-box">
+                <input type="checkbox" id="outOfStock">
+                <label>Out Of Stock</label>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button id="addBtn">Add</button>
+            <button id="updateBtn" class="hide">Update</button>
+        </div>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="searchInput"
+               placeholder="Search by name, color or availability">
+    </div>
+
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Color</th>
+                    <th>Out Of Stock</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="productsBody"></tbody>
+        </table>
+
+        <p id="noProducts" class="hide">No Products Found</p>
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
