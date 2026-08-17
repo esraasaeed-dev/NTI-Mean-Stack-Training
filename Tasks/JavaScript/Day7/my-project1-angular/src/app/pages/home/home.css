@@ -1,0 +1,23 @@
+.home {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.home h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.home p {
+  color: #777;
+}
+
+.home button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #6c63ff;
+  color: white;
+  cursor: pointer;
+}

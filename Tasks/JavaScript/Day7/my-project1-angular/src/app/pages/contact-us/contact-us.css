@@ -1,0 +1,39 @@
+.contact {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #333;
+}
+
+.contact p {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.contact textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #6c63ff;
+  color: white;
+  cursor: pointer;
+}
