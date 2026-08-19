@@ -1,0 +1,69 @@
+<div class="containar">
+    <h1>Mini Event Manager</h1>
+
+    <div class="add">
+        <input 
+          type="text"
+          placeholder="Event Name"
+          [(ngModel)] = "eventName">
+
+        <p>Event Name: {{ eventName }}</p>
+
+        <input 
+        type="text"
+         placeholder="Category"
+        [(ngModel)]="eventCategory">
+
+        <p>Category: {{ eventCategory }}</p>
+
+        <button 
+        (click) = "addEvent()"
+        [disabled] = !eventName || eventCategory>
+        add Event
+        </button>
+
+    </div>
+
+    <h2>Event</h2>
+
+    @for (event of events; track event.id) {
+
+    <div
+      class="event-card"
+      [class.sold-out]="event.soldOut">
+
+      <h3>{{ event.name }}</h3>
+
+      <p>{{ event.category }}</p>
+
+      @if (event.soldOut) {
+
+        <p [style.color]="'red'">
+          Sold Out
+        </p>
+
+      } @else {
+
+        <p [style.color]="'green'">
+          Available
+        </p>
+
+      }
+
+      <button
+        [disabled]="event.soldOut"
+        [attr.aria-label]="'Book ' + event.name">
+        Book
+      </button>
+
+    </div>
+
+  } @empty {
+
+    <p>No events available.</p>
+
+  }
+
+
+</div>
+

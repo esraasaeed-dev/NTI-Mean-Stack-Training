@@ -1,0 +1,53 @@
+body { 
+    font-family: Arial,
+    sans-serif;
+    margin: 30px;
+    background-color: #f5f5f5; 
+}
+
+ h1 { 
+    text-align: center;
+}
+
+button { 
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #3367d8;
+}
+
+button:hover {
+    background-color: #1f58d4;
+} 
+
+
+ #message {
+    text-align: center; 
+}
+
+ #postsContainer { 
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px; 
+    margin: 30px auto; 
+} 
+
+ .card { 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px #ddd; 
+} 
+
+.card h2 { 
+    font-size: 20px;
+
+} .card p { 
+    color: #555; 
+    line-height: 1.5; 
+}

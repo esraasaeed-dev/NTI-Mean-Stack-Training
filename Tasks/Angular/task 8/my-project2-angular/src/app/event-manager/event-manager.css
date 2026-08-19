@@ -1,0 +1,42 @@
+.containar {
+  width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.event-card {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sold-out {
+  background-color: #f5f5f5;
+  opacity: 0.7;
+}
